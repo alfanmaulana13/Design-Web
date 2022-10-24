@@ -1,0 +1,48 @@
+
+    @import url('https://googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #header {
+        height: 80px;
+        width: 100%;
+        background: rgb(0, 139, 0);
+        text-align: center;
+    }
+
+    #navbar {
+        height: 50px;
+        width: 100%;
+        background: rgb(255, 208, 0);
+        text-align: center;
+    }
+    #side-bar-left {
+        height: 100%;
+        width: 20%;
+        background: rgb(132, 193, 247);
+        float: left;
+    }
+    #main {
+        width: 60%;
+        height: 100%;
+        background: rgb(243, 198, 131);
+        float: left;
+    }
+    #side-bar-right {
+        height: 100%;
+        width: 20%;
+        background: rgb(132, 193, 247);
+        float: left;
+    }
+
+    #footer {
+        clear:both;
+        background: rgb(179, 255, 0);
+        width: 100%;
+        height: 80px;
+        text-align: center;
+    }
+    
